@@ -10,5 +10,5 @@ end
 
 # Check the maximum length of a URI that Qualtrics will store
 get '/:values' do
-  "length=" + params[:values].to_s.length
+  "length=" + params[:values].length.to_s
 end
