@@ -3,6 +3,8 @@ ruby '2.3.3'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'json'
+gem 'xml-simple'
 
 group :development do
   gem 'pry'
